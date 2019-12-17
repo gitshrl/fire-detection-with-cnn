@@ -7,7 +7,7 @@ import time
 
 model = load_model('Fire-64x64-CNN-v2.h5')
 
-cap = cv2.VideoCapture('NewProject.mp4')
+cap = cv2.VideoCapture(0)
 time.sleep(2)
 
 if cap.isOpened():
