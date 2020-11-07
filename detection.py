@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 import time
 
-model = load_model('model/v2.0/Fire-32x32-CNN-v2.h5')
+model = load_model('models/v2.0/Fire-32x32-CNN-v2.h5')
 
 cap = cv2.VideoCapture('input/sample.mp4') # replace 'input/sample.mp4' with 0 to use your webcam instead
 time.sleep(2)
