@@ -1,1 +1,1 @@
-# Fire-Detection-with-Convolutional-Neural-Network
+# fire-detection-with-convolutional-neural-network
