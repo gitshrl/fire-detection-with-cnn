@@ -43,7 +43,7 @@ while True:
         key = cv2.waitKey(10)
         if key == 27:
             break
-    elif rval==False:
+    elif rval == False:
             break
 
 cap.release()
